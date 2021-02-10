@@ -312,11 +312,19 @@
         <!--            <version>2.5</version>-->
         <!--            <scope>provided</scope>-->
         <!--        </dependency>-->
+        
         <!-- AWS S3 SDK -->
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-s3</artifactId>
             <version>${version.aws-java-sdk}</version>
+        </dependency>
+        <!-- Replace jackson-dataformat-cbor version with newer one (2.12.1). 'aws-java-sdk-s3' contains this 
+         dependency in version 2.6.7 which is vulnerable - see https://app.snyk.io/vuln/SNYK-JAVA-COMFASTERXMLJACKSONDATAFORMAT-1047329-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-cbor</artifactId>
+            <version>2.12.1</version>
         </dependency>
 
         <!-- Rest API client -->
