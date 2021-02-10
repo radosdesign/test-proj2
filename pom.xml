@@ -34,10 +34,10 @@
 
         <selenium_version>2.42.2</selenium_version>
         <powermock.version>2.0.7</powermock.version>
-        <version.aws-java-sdk>1.11.598</version.aws-java-sdk>
-        <version.feign>10.10.0</version.feign>
+        <version.aws-java-sdk>1.11.893</version.aws-java-sdk>
+        <version.feign>10.12</version.feign>
 
-        <log4j.version>2.13.1</log4j.version>
+        <log4j.version>2.13.2</log4j.version>
         <simple-java-mail.version>6.0.3</simple-java-mail.version>
     </properties>
     
@@ -191,7 +191,7 @@
         <dependency>
             <groupId>com.sendgrid</groupId>
             <artifactId>sendgrid-java</artifactId>
-            <version>4.6.2</version>
+            <version>4.6.3</version>
         </dependency>
         <dependency>
             <groupId>org.jasypt</groupId>
@@ -226,12 +226,12 @@
         <dependency>
             <groupId>org.reflections</groupId>
             <artifactId>reflections</artifactId>
-            <version>0.9.10</version>
+            <version>0.9.12</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>27.0.1-jre</version>
+            <version>30.0-jre</version>
         </dependency>
         <!-- Image processing -->
         <dependency>
@@ -372,7 +372,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.5.12</version>
+            <version>4.5.13</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
